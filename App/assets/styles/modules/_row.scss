@@ -6,6 +6,9 @@
 
   &--gutters{
     margin-right: -65px;
+  }
+
+  &--gutters > div{
     padding-right: 65px;
   }
 

@@ -18,16 +18,20 @@ styles for large hero banner
   &__title{
     color: #fff;
     background-color: rgba($mainGrey,.8);
-    max-width: 440px;
+    max-width: 640px;
     padding: 15px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 700;
     font-size: 2.8rem;
+    text-shadow: 2px 2px 2px #000;
   }
 
   &__subtitle{
   color: #fff;
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 2px #000;
+  margin-top: 25px;
   }
 }

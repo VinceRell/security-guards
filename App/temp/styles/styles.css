@@ -428,7 +428,9 @@ img {
   width: 33.3%; }
 
 .row--gutters {
-  margin-right: -65px;
+  margin-right: -65px; }
+
+.row--gutters > div {
   padding-right: 65px; }
 
 .row::after {
@@ -475,18 +477,51 @@ styles for large hero banner
   .large-hero__title {
     color: #fff;
     background-color: rgba(51, 51, 51, 0.8);
-    max-width: 440px;
+    max-width: 640px;
     padding: 15px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 700;
-    font-size: 2.8rem; }
+    font-size: 2.8rem;
+    text-shadow: 2px 2px 2px #000; }
   .large-hero__subtitle {
-    color: #fff; }
+    color: #fff;
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 2px #000;
+    margin-top: 25px; }
 
 .headline {
   font-size: 2.5rem;
   font-weight: 600;
   color: #0D0D0D;
   text-align: center; }
+
+.feature--title {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #333; }
+
+.site-nav {
+  background-color: #333; }
+  .site-nav ul {
+    float: right; }
+  .site-nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 35px; }
+  .site-nav a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    display: block; }
+
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: .5rem 0;
+  text-align: center; }
+  .site-footer__text {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 300; }

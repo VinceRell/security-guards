@@ -1,0 +1,20 @@
+.site-nav{
+  background-color: $mainGrey;
+
+  ul{
+    float: right;
+  }
+
+  li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 35px;
+  }
+
+  a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+  }
+}
