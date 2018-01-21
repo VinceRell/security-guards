@@ -1,0 +1,18 @@
+/*
+==========
+Global css styles
+==========
+*/
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+  color: $mainGrey;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}

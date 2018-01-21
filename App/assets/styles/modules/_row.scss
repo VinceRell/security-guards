@@ -1,0 +1,13 @@
+.row{
+  &__4-medium{
+    float: left;
+    width: 33.3%;
+  }
+
+  &--gutters{
+    margin-right: -65px;
+    padding-right: 65px;
+  }
+
+  @include clearfix;
+}

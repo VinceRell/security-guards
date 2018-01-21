@@ -1,3 +1,10 @@
-h1{
-  color: red;
-}
+@import "../../../node_modules/normalize-scss/sass/_normalize.scss";
+@include normalize();
+@import "global/_colorVars.scss";
+@import "global/_mixins.scss";
+@import "global/_global.scss";
+@import "modules/_row.scss";
+@import "modules/_wrapper.scss";
+@import "modules/_page-section.scss";
+@import "modules/_large-hero.scss";
+@import "modules/_headline.scss";

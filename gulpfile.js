@@ -1,7 +1,7 @@
 var gulp = require("gulp"),
 watch = require("gulp-watch"),
 sass = require("gulp-sass"),
-autoprefixer = require("gulp-autoprefixer");
+autoprefixer = require("gulp-autoprefixer"),
 browserSync = require("browser-sync").create();
 
 
@@ -11,7 +11,9 @@ gulp.task("default", function(){
 
 gulp.task("sass", function(){
   return gulp.src("App/assets/styles/styles.scss")
-    .pipe(sass())
+    .pipe(sass({includePaths: [
+      "../../../node_modules/normalize-scss/sass/",
+      "global/"] }))
     .on("error", function(errorInfo){
       console.log(errorInfo);
       this.emit("end");
