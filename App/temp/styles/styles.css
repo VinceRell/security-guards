@@ -501,6 +501,9 @@ styles for large hero banner
   font-size: 1.4rem;
   color: #333; }
 
+.feature--content {
+  text-align: center; }
+
 .generic-content-container p {
   font-weight: 700;
   line-height: 1.65;
@@ -509,26 +512,40 @@ styles for large hero banner
 .generic-content-container p a {
   font-weight: 700; }
 
-.site-form {
-  max-width: 400px;
+.contact-container {
+  width: 500px; }
+
+.site-contact-info li {
+  list-style: none; }
+
+.site-form__form-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .site-form label {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1; }
-    .site-form label input {
-      -webkit-box-flex: 1;
-          -ms-flex: 1;
-              flex: 1; }
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: .5rem; }
+
+.site-form__form-row > label {
+  padding: .5em 1em .5em 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.site-form__form-row > input {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2; }
+
+.site-form__form-row > button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #FFF;
+  font-weight: 300;
+  border: none;
+  -webkit-box-shadow: 1px 1px 1px #333;
+          box-shadow: 1px 1px 1px #333; }
 
 .site-nav {
   background-color: #333; }
