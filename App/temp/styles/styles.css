@@ -475,21 +475,20 @@ styles for large hero banner
     text-align: center;
     width: 100%; }
   .large-hero__title {
-    color: #fff;
-    background-color: rgba(51, 51, 51, 0.8);
+    color: #FFF;
     max-width: 640px;
     padding: 15px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 700;
-    font-size: 2.8rem;
-    text-shadow: 2px 2px 2px #000; }
+    font-size: 3.2rem;
+    text-shadow: 3px 3px 3px #000; }
   .large-hero__subtitle {
-    color: #fff;
-    font-size: 2.4rem;
-    text-shadow: 2px 2px 2px #000;
-    margin-top: 25px; }
+    color: #FFF;
+    font-size: 2.9rem;
+    text-shadow: 3px 3px 3px #000;
+    margin-top: 0px; }
 
 .headline {
   font-size: 2.5rem;
@@ -501,6 +500,35 @@ styles for large hero banner
   text-align: center;
   font-size: 1.4rem;
   color: #333; }
+
+.generic-content-container p {
+  font-weight: 700;
+  line-height: 1.65;
+  margin: 0 0 1.8rem 0; }
+
+.generic-content-container p a {
+  font-weight: 700; }
+
+.site-form {
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .site-form label {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+    .site-form label input {
+      -webkit-box-flex: 1;
+          -ms-flex: 1;
+              flex: 1; }
 
 .site-nav {
   background-color: #333; }
