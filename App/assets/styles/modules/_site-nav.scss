@@ -3,18 +3,27 @@
 
   ul{
     float: right;
+    margin: 0px;
   }
 
   li{
     list-style: none;
     display: inline-block;
-    padding-right: 35px;
+    margin-right: 35px;
   }
 
   a{
     color: #fff;
     font-weight: 600;
+    font-size: 1.2rem;
     text-decoration: none;
     display: block;
+    padding: 15px;
+  }
+
+  a:hover{
+    color: #000;
+    background-color: #CCC;
+    transition: .3s;
   }
 }

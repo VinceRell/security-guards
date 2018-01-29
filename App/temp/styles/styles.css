@@ -444,7 +444,7 @@ wrapper styles
 ==========
 */
 .wrapper {
-  max-width: 1200px;
+  max-width: 1150px;
   padding-left: 18px;
   padding-right: 18px;
   margin-left: auto;
@@ -550,16 +550,24 @@ styles for large hero banner
 .site-nav {
   background-color: #333; }
   .site-nav ul {
-    float: right; }
+    float: right;
+    margin: 0px; }
   .site-nav li {
     list-style: none;
     display: inline-block;
-    padding-right: 35px; }
+    margin-right: 35px; }
   .site-nav a {
     color: #fff;
     font-weight: 600;
+    font-size: 1.2rem;
     text-decoration: none;
-    display: block; }
+    display: block;
+    padding: 15px; }
+  .site-nav a:hover {
+    color: #000;
+    background-color: #CCC;
+    -webkit-transition: .3s;
+    transition: .3s; }
 
 .site-footer {
   background-color: #333;
