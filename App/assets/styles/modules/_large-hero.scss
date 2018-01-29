@@ -8,29 +8,27 @@ styles for large hero banner
 
   &__text-content{
     position: absolute;
-    left: 0;
+    left: 25%;
     top:50%;
-    transform: translateY(-60%);
+    transform: translateY(-35%);
     text-align: center;
-    width: 100%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, .5);
   }
 
   &__title{
-    color: #FFF;
-    max-width: 640px;
+    color: $mainGrey;
     padding: 15px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px;
     font-weight: 700;
     font-size: 3.2rem;
-    text-shadow: 3px 3px 3px #000;
+    text-shadow: 1px 1px 1px #000;
   }
 
   &__subtitle{
   color: #FFF;
   font-size: 2.9rem;
   text-shadow: 3px 3px 3px #000;
-  margin-top: 0px;
+  margin: 0px;
   }
 }
