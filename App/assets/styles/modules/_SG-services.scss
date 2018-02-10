@@ -1,0 +1,31 @@
+.service{
+  margin-top: 20px;
+
+  &--title,
+  &--subtitle{
+    text-align: center;
+    color: $darkGrey;
+    margin: 20px 0;
+  }
+
+  &--container{
+    margin-bottom: 30px;
+
+    @media screen and(min-width: 765px){
+      margin-top: 70px;
+    }
+  }
+
+  &--content{
+    max-width: 550px;
+  }
+
+  &--content-title{
+    font-weight: bolder;
+  }
+
+  &--image{
+    margin-bottom: 30px;
+  }
+
+}

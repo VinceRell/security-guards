@@ -7,10 +7,12 @@ Global css styles
   box-sizing: border-box;
 }
 
-body{
+html,body{
   font-family: "Raleway", sans-serif;
   color: $mainGrey;
+  height: 100%;
 }
+
 
 img{
   max-width: 100%;

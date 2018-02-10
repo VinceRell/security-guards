@@ -1,29 +1,40 @@
-.site-nav{
+.navbar{
   background-color: $mainGrey;
 
-  ul{
-    float: right;
-    margin: 0px;
+  &-collapse{
+    padding: 0;
   }
 
-  li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 35px;
+  &-default{
+    border-radius: 0px;
+    margin: 0;
+    border: none;
   }
 
-  a{
+  &-default .navbar-nav{
+    margin: 0;
+  }
+
+
+  &-default .navbar-nav li a{
     color: #fff;
-    font-weight: 600;
-    font-size: 1.2rem;
-    text-decoration: none;
-    display: block;
-    padding: 15px;
+    font-size: 1.55rem;
+    font-weight: 500;
   }
 
-  a:hover{
+  &-default .navbar-nav > li > a:hover{
     color: #000;
-    background-color: #CCC;
-    transition: .3s;
+    background-color: #ccc;
   }
+
+  &-default .navbar-nav > li > a:focus{
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 700px){
+    &-default .navbar-nav li{
+      padding: 6px 0;
+    }
+  }
+
 }

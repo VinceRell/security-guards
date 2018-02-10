@@ -1,0 +1,27 @@
+.feature{
+  margin-top: 20px;
+
+  &--title{
+    text-align: center;
+    color: $darkGrey;
+  }
+
+  &--content{
+    text-align: center;
+    margin-top: 70px;
+
+    @media screen and(min-width: 760px){
+      margin-bottom: 30px;
+    }
+
+    .fa-shield-alt,
+    .fa-check,
+    .fa-handshake{
+      padding-right: 5px;
+    }
+  }
+
+  &--item{
+    margin-bottom: 30px;
+  }
+}

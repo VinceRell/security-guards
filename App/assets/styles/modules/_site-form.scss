@@ -1,34 +1,52 @@
-.contact-container{
-  width: 500px;
-}
-
-.site-contact-info{
-  li{
-    list-style: none;
-  }
-}
 .site-form{
-  &__form-row{
-    display: flex;
-    justify-content: flex-end;
-    padding: .5rem;
+  margin: 20px 0;
+
+  &--title,
+  &--subtitle{
+    text-align: center;
+    margin: 20px 0;
+    color: $darkGrey;
   }
 
-  &__form-row > label{
-    padding: .5em 1em .5em 0;
-    flex: 1;
-  }
+  &--contact-form{
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
 
-  &__form-row > input{
-    flex: 2;
+    textarea{
+      height: 120px;
+      resize: none;
+    }
   }
-
-  &__form-row > button{
-    padding: 10px 20px;
-    background-color: $mainGrey;
-    color: #FFF;
-    font-weight: 300;
+  &--submit{
+    width: 90px;
+    height: 30px;
     border: none;
-    box-shadow: 1px 1px 1px $mainGrey;
+    background-color: $mainGrey;
+    color: #fff;
+  }
+
+  &--submit:hover{
+    background-color: #CCC;
+    color: #000;
+  }
+
+  &--side-title{
+    text-align: center;
+    font-weight: bolder;
+    color: $darkGrey;
+  }
+
+  &--side-content{
+    color: $mainGrey;
+    list-style: none;
+    max-width: 450px;
+    margin: 25px auto;
+    padding: 0;
+
+
+    li{
+      margin-bottom: 10px;
+    }
   }
 }

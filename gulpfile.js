@@ -2,6 +2,7 @@ var gulp = require("gulp"),
 watch = require("gulp-watch"),
 sass = require("gulp-sass"),
 autoprefixer = require("gulp-autoprefixer"),
+connect = require("gulp-connect-php7"),
 browserSync = require("browser-sync").create();
 
 
@@ -11,9 +12,7 @@ gulp.task("default", function(){
 
 gulp.task("sass", function(){
   return gulp.src("App/assets/styles/styles.scss")
-    .pipe(sass({includePaths: [
-      "../../../node_modules/normalize-scss/sass/",
-      "global/"] }))
+    .pipe(sass({includePaths: ["global/"] }))
     .on("error", function(errorInfo){
       console.log(errorInfo);
       this.emit("end");
@@ -24,13 +23,19 @@ gulp.task("sass", function(){
 });
 
 gulp.task("watch", function(){
-  browserSync.init({
-    server: {
-      baseDir: "App"
-    }
+  connect.server({}, function(){
+    browserSync.init({
+      server: {
+        baseDir: "App"
+      },
+    });
   });
 
   watch("./App/*.html",function(){
+    browserSync.reload();
+  });
+
+  watch("./App/*.php", function(){
     browserSync.reload();
   });
 
