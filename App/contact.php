@@ -52,7 +52,7 @@
               <p class="site-footer--contact">Tel: 06-27849562 <a href="https://www.facebook.com/Security-Guards-Services-Solutions-BV-582012802140121/?ref=page_internal"><i class="fab fa-facebook-square fa-2x"></i></a> <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></p>
             </div>
           </div>
-          <p class="site-footer--text">&copy; Security Guards Service & Solutions B.V. 2017. Alle rechten voorbehouden.</p>
+          <p class="site-footer--text">&copy; SecurityGuards Service & Solutions B.V. 2017. Alle rechten voorbehouden.</p>
         </div>
       </footer>
 
