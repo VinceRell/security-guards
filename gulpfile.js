@@ -55,7 +55,7 @@ gulp.task("build",["deleteDistfolder","optimizeImages", "usemin"]);
 gulp.task("watch", function(){
     browserSync.init({
       server: {
-        baseDir: "docs"
+        baseDir: "App"
       },
     });
 
