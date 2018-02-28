@@ -5831,12 +5831,12 @@ wrapper styles
   overflow: hidden; }
 
 .content-container {
-  font-weight: 600; }
+  font-weight: 500; }
   .content-container h3 {
     color: #333;
     margin: 0 0 1.5rem 0; }
   .content-container p {
-    font-size: 1.55rem;
+    font-size: 1.65rem;
     line-height: 1.65;
     margin: 0 0 4rem 0; }
 
@@ -5894,7 +5894,7 @@ styles for large hero banner
     font-weight: 700;
     font-size: 2.4rem;
     margin: 0px;
-    text-shadow: 1px 1px 1px #000; }
+    text-shadow: .1rem .1rem .1rem #000; }
     @media screen and (min-width: 570px) {
       .large-hero__title {
         font-size: 4.8rem; } }
@@ -6007,7 +6007,10 @@ styles for large hero banner
     margin: 25px auto;
     padding: 0; }
     .site-form--side-content li {
-      margin-bottom: 10px; }
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 1.65rem;
+      font-weight: 600; }
 
 .site-footer {
   background-color: #333;
